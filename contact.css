@@ -1,0 +1,109 @@
+body {
+    background-color: peachpuff;
+}
+
+h3 {
+    background-color: rosybrown;
+    color: azure;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+
+}
+a:hover{
+    color: #009743;
+    filter: drop-shadow(1px 1px 1px black);
+
+}
+header {
+    background-color: rosybrown;
+    color:azure; 
+    font-style: normal;
+    font-family: fantasy;
+    font-size: 40px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+footer {
+    background-color: rosybrown;
+    color: azure;
+    font-style: italic;
+    font-family: castellar;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 35px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;  
+    font-weight: bold;
+}
+
+iframe {
+    float: right;
+    margin-right: 20px;
+    padding: 40px;
+    height: 450px;
+    width: 450px;
+    margin-top: 30px;
+}
+
+.form {
+    background-color: lightcoral;
+    border: 3px solid;
+    border-radius: 10px;
+    height: 610px;
+    font-size: 25px;
+    padding: 40px;
+    margin: 15px;
+}
+
+.submit {
+    margin-left: 600px;
+    margin-top: 40px;
+}
+submit:hover{
+    background-color: chocolate;
+}
+
+input[type=submit] {
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+input[type=submit]:hover { 
+    background-color: gray;
+}
+
+
+ul li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #FFCB0A;
+    filter: drop-shadow(1px 1px 2px black);
+    font-family: fantasy;
+    
+}
+
+
+
+ul,
+li {
+    padding: 0 10px;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 15px;
+    
+} 
+ul {
+    width: 350px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+}
